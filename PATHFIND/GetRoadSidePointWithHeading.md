@@ -10,10 +10,12 @@ BOOL _GET_ROAD_SIDE_POINT_WITH_HEADING(float x, float y, float z, float heading,
 ```
 
 ## Parameters
-* **x**: 
-* **y**: 
-* **z**: 
-* **heading**: 
-* **outPosition**: 
+* **x**: Game.PlayerPed.Position.X;
+* **y**: Game.PlayerPed.Position.Y;
+* **z**: Game.PlayerPed.Position.Z;
+* **heading**: Game.PlayerPed.Heading;
+* **outPosition**: ref new Vector3();
 
 ## Return value
+
+**outPosition** shows the closest sidepoint (paving) to the player
